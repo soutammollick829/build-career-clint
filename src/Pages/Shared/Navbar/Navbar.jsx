@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 const Navbar = () => {
   return (
     <>
-      <div className="h-10 bg-[#6f9a37] flex justify-around items-center text-white">
+      <div className="lg:h-10 bg-[#6f9a37] lg:flex justify-around items-center text-white text-center">
         <p className="inline-flex items-center gap-2">
           <FaPhoneAlt className="text-[#ee5253]" /> (+7) 811-234-5678
         </p>
@@ -41,7 +41,7 @@ const Navbar = () => {
               </label>
             </div>
             <div className="flex-1 px-2 mx-2">
-              <img className="w-16 rounded-full" src={logoImg} alt="img" />
+              <img className="w-16" src={logoImg} alt="img" />
               <h1 className="text-4xl font-bold">
                 Build <span className="text-[#ee5253]">Career</span>
               </h1>
