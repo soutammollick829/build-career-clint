@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logoImg from "../../../assets/logo image/4395150.png";
 import { FaFacebook, FaLinkedin, FaRegClock } from "react-icons/fa";
+import moment from "moment/moment";
 const Footer = () => {
   return (
     <div>
@@ -29,8 +30,8 @@ const Footer = () => {
             Opening Hours
           </span>
           <FaRegClock className="mx-auto text-2xl text-[#ee5253]"/>
-          <p>Mon - Fri 9.00 - 18.00</p>
-          <p>Saturday 9.00 - 18.00</p>
+          <p>{moment().format('dddd,-Fri-L')}</p>
+          <p>{moment().format('LLLL')}</p>
           <p className="text-[#ee5253] font-bold">Sunday Closed</p>
         </div>
       </footer>

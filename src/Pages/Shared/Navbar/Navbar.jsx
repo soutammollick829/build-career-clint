@@ -70,7 +70,7 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          <Marquee className="text-[#ee5253] text-lg">
+          <Marquee className="text-[#ee5253] text-lg mb-5 mt-5">
           This website used for education, courses, school, online learning and training.
           </Marquee>
           {/* Page content here */}
