@@ -1,6 +1,7 @@
 import About from "../About us/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact us/Contact";
+import Gallery from "../Gallery/Gallery";
 import Collages from "../Our collages/Collages";
 import Services from "../services/Services";
 
@@ -11,6 +12,7 @@ const Home = () => {
             <About/>
             <Collages/>
             <Services/>
+            <Gallery/>
             <Contact/>
         </div>
     );
