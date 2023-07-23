@@ -22,8 +22,8 @@ const Footer = () => {
           <li className="hover:text-[#ee5253]"><Link>Colleges</Link></li>
           <li className="hover:text-[#ee5253]"><Link>Admission</Link></li>
           <li className="hover:text-[#ee5253]"><Link>My College</Link></li>
-          <li className="hover:text-[#ee5253]"><Link>About us</Link></li>
-          <li className="hover:text-[#ee5253]"><Link>Contact us</Link></li>
+          <li className="hover:text-[#ee5253]"><Link to='/about'>About us</Link></li>
+          <li className="hover:text-[#ee5253]"><Link to='/contact'>Contact us</Link></li>
         </div>
         <div>
           <span className="text-2xl font-bold text-slate-700">

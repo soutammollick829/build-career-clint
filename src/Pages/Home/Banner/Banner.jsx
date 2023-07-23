@@ -1,4 +1,5 @@
 import { Bounce } from "react-awesome-reveal";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -29,7 +30,7 @@ const Banner = () => {
               admission
             </button>
             <button className="btn btn-outline border-[#ee5253] text-white hover:text-[#ee5253]">
-              Contact us
+              Contact us <FaPhoneAlt/>
             </button>
           </div>
         </div>
@@ -41,7 +42,7 @@ const Banner = () => {
             Welcome to <br /> Build Your Career website
           </h1>
         </div>
-        <div className="grid flex-grow h-32 bg-base-300 place-items-center lg:w-1/2 p-5">
+        <div className="grid flex-grow h-36 lg:h-32 bg-base-300 place-items-center lg:w-1/2 p-5">
           <p>
             Hello ! This Build Your Career website. This is responsive template
             and no coding required.Vel illum dolore eu feugiat{" "}
