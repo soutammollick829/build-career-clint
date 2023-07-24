@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import logoImg from "../../../assets/logo image/4395150.png";
-import { FaEnvelopeOpenText, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelopeOpenText, FaMapMarkerAlt, FaPhoneAlt, FaUserCircle } from "react-icons/fa";
 import Marquee from "react-fast-marquee";
 
 const Navbar = () => {
@@ -66,6 +66,9 @@ const Navbar = () => {
                 </li>
                 <li className="font-semibold">
                   <Link to='/contact'>Contact us</Link>
+                </li>
+                <li className="font-semibold">
+                  <Link to='/login'><FaUserCircle/> Login</Link>
                 </li>
               </ul>
             </div>
