@@ -1,0 +1,201 @@
+[
+    {
+      "college_name": "Harvard University",
+      "college_image": "https://i.ibb.co/pxySfxG/vadim-sherbakov-d6eb-Y-fa-OO0-unsplash.jpg",
+      "college_rating": 4.5,
+      "admission_date": "2023-09-01",
+      "number_of_research": 120,
+      "events": [
+        {
+          "event_name": "Research Symposium",
+          "event_date": "2023-10-15",
+          "event_image": "https://example.com/research_symposium.jpg",
+          "event_description": "Annual research symposium showcasing cutting-edge research."
+        },
+        {
+          "event_name": "Tech Expo",
+          "event_date": "2024-02-20",
+          "event_image": "https://example.com/tech_expo.jpg",
+          "event_description": "Exhibition of technological innovations and projects."
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Football",
+          "sport_image": "https://example.com/football.jpg",
+          "sport_description": "Football tournament for students."
+        },
+        {
+          "sport_name": "Basketball",
+          "sport_image": "https://example.com/basketball.jpg",
+          "sport_description": "Intercollegiate basketball competition."
+        }
+      ]
+    },
+    {
+      "college_name": "Princeton University",
+      "college_image": "https://i.ibb.co/K5Q6cKT/john-torcasio-JD-g-YRAe7-Kc-unsplash.jpg",
+      "college_rating": 3.8,
+      "admission_date": "2023-08-15",
+      "number_of_research": 80,
+      "events": [
+        {
+          "event_name": "Science Fair",
+          "event_date": "2023-11-10",
+          "event_image": "https://example.com/science_fair.jpg",
+          "event_description": "Exhibition of scientific experiments and projects."
+        },
+        {
+          "event_name": "Innovation Summit",
+          "event_date": "2024-03-25",
+          "event_image": "https://example.com/innovation_summit.jpg",
+          "event_description": "Gathering of innovators and entrepreneurs."
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Cricket",
+          "sport_image": "https://example.com/cricket.jpg",
+          "sport_description": "Intercollegiate cricket tournament."
+        },
+        {
+          "sport_name": "Volleyball",
+          "sport_image": "https://example.com/volleyball.jpg",
+          "sport_description": "Volleyball championship among college teams."
+        }
+      ]
+    },
+    {
+      "college_name": "Stanford University",
+      "college_image": "https://i.ibb.co/CQQrJgg/geoff-brooks-N-v-KFS1ik-Ao-unsplash.jpg",
+      "college_rating": 4.0,
+      "admission_date": "2023-09-10",
+      "number_of_research": 150,
+      "events": [
+        {
+          "event_name": "Tech Conference",
+          "event_date": "2023-12-05",
+          "event_image": "https://example.com/tech_conference.jpg",
+          "event_description": "Conference on emerging technologies and trends."
+        },
+        {
+          "event_name": "Hackathon",
+          "event_date": "2024-04-18",
+          "event_image": "https://example.com/hackathon.jpg",
+          "event_description": "Coding competition to solve real-world problems."
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Soccer",
+          "sport_image": "https://example.com/soccer.jpg",
+          "sport_description": "Intercollegiate soccer championship."
+        },
+        {
+          "sport_name": "Badminton",
+          "sport_image": "https://example.com/badminton.jpg",
+          "sport_description": "Badminton tournament for college players."
+        }
+      ]
+    },
+    {
+        "college_name": "University of Chicago",
+        "college_image": "https://i.ibb.co/C26Jf1P/pang-yuhao-kd5cxw-ZOK4-unsplash.jpg",
+        "college_rating": 4.5,
+        "admission_date": "2023-09-01",
+        "number_of_research": 120,
+        "events": [
+          {
+            "event_name": "Research Symposium",
+            "event_date": "2023-10-15",
+            "event_image": "https://example.com/research_symposium.jpg",
+            "event_description": "Annual research symposium showcasing cutting-edge research."
+          },
+          {
+            "event_name": "Tech Expo",
+            "event_date": "2024-02-20",
+            "event_image": "https://example.com/tech_expo.jpg",
+            "event_description": "Exhibition of technological innovations and projects."
+          }
+        ],
+        "sports": [
+          {
+            "sport_name": "Football",
+            "sport_image": "https://example.com/football.jpg",
+            "sport_description": "Football tournament for students."
+          },
+          {
+            "sport_name": "Basketball",
+            "sport_image": "https://example.com/basketball.jpg",
+            "sport_description": "Intercollegiate basketball competition."
+          }
+        ]
+      },
+      {
+        "college_name": "Yale University",
+        "college_image": "https://i.ibb.co/TwnjLNb/darya-tryfanava-d55fh-Ar-DES0-unsplash.jpg",
+        "college_rating": 3.8,
+        "admission_date": "2023-08-15",
+        "number_of_research": 80,
+        "events": [
+          {
+            "event_name": "Science Fair",
+            "event_date": "2023-11-10",
+            "event_image": "https://example.com/science_fair.jpg",
+            "event_description": "Exhibition of scientific experiments and projects."
+          },
+          {
+            "event_name": "Innovation Summit",
+            "event_date": "2024-03-25",
+            "event_image": "https://example.com/innovation_summit.jpg",
+            "event_description": "Gathering of innovators and entrepreneurs."
+          }
+        ],
+        "sports": [
+          {
+            "sport_name": "Cricket",
+            "sport_image": "https://example.com/cricket.jpg",
+            "sport_description": "Intercollegiate cricket tournament."
+          },
+          {
+            "sport_name": "Volleyball",
+            "sport_image": "https://example.com/volleyball.jpg",
+            "sport_description": "Volleyball championship among college teams."
+          }
+        ]
+      },
+      {
+        "college_name": "California of Technology",
+        "college_image": "https://i.ibb.co/HX9rrSr/dom-fou-YRMWVcdyhm-I-unsplash.jpg",
+        "college_rating": 4.0,
+        "admission_date": "2023-09-10",
+        "number_of_research": 150,
+        "events": [
+          {
+            "event_name": "Tech Conference",
+            "event_date": "2023-12-05",
+            "event_image": "https://example.com/tech_conference.jpg",
+            "event_description": "Conference on emerging technologies and trends."
+          },
+          {
+            "event_name": "Hackathon",
+            "event_date": "2024-04-18",
+            "event_image": "https://example.com/hackathon.jpg",
+            "event_description": "Coding competition to solve real-world problems."
+          }
+        ],
+        "sports": [
+          {
+            "sport_name": "Soccer",
+            "sport_image": "https://example.com/soccer.jpg",
+            "sport_description": "Intercollegiate soccer championship."
+          },
+          {
+            "sport_name": "Badminton",
+            "sport_image": "https://example.com/badminton.jpg",
+            "sport_description": "Badminton tournament for college players."
+          }
+        ]
+      }
+  ]
+  

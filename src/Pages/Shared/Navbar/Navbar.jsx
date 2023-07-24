@@ -52,14 +52,14 @@ const Navbar = () => {
                 <li className="font-semibold">
                   <Link to='/'>Home</Link>
                 </li>
-                <li>
-                  <Link>Colleges</Link>
+                <li className="font-semibold">
+                  <Link to='/colleges'>Colleges</Link>
                 </li>
-                <li>
-                  <Link>Admission</Link>
+                <li className="font-semibold">
+                  <Link to='/admission'>Admission</Link>
                 </li>
-                <li>
-                  <Link>My College</Link>
+                <li className="font-semibold">
+                  <Link to='/my-college'>My College</Link>
                 </li>
                 <li className="font-semibold">
                   <Link to='/about'>About</Link>
