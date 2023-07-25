@@ -1,9 +1,18 @@
 import { Link, Outlet } from "react-router-dom";
 import logoImg from "../../../assets/logo image/4395150.png";
-import { FaEnvelopeOpenText, FaMapMarkerAlt, FaPhoneAlt, FaUserCircle } from "react-icons/fa";
+import { FaEnvelopeOpenText, FaKey, FaMapMarkerAlt, FaPhoneAlt, FaUserCircle } from "react-icons/fa";
 import Marquee from "react-fast-marquee";
+import { useContext } from "react";
+import { AuthContext } from "../../../Provider/AuthProvider";
 
 const Navbar = () => {
+  const {user, logOut} = useContext(AuthContext);
+
+  const handelLogOut = () =>{
+    logOut()
+    .then()
+    .catch()
+  }
   return (
     <>
       <div className="lg:h-10 bg-[#6f9a37] lg:flex justify-around items-center text-white text-center">
@@ -67,9 +76,14 @@ const Navbar = () => {
                 <li className="font-semibold">
                   <Link to='/contact'>Contact us</Link>
                 </li>
-                <li className="font-semibold">
+                {
+                  user? <><button onClick={handelLogOut} className="font-semibold btn btn-sm">
+                 <FaKey/> Logout
+                </button></>:
+                  <><li className="font-semibold">
                   <Link to='/login'><FaUserCircle/> Login</Link>
-                </li>
+                </li></>
+                }
               </ul>
             </div>
           </div>
@@ -81,14 +95,26 @@ const Navbar = () => {
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-          <ul className="menu p-4 w-80 h-full bg-base-200">
+          <ul className="menu p-4 w-72 h-full bg-base-200">
             {/* Sidebar content here */}
             <li>
-              <a>Sidebar Item 1</a>
+            <Link to='/'>Home</Link>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+            <Link to='/colleges'>Colleges</Link>
             </li>
+            <li><Link to='/admission'>Admission</Link></li>
+            <li> <Link to='/my-college'>My College</Link></li>
+            <li> <Link to='/about'>About</Link></li>
+            <li><Link to='/contact'>Contact us</Link></li>
+            {
+                  user? <><button onClick={handelLogOut} className="font-semibold btn btn-sm">
+                 <FaKey/> Logout
+                </button></>:
+                  <><li className="font-semibold">
+                  <Link to='/login'><FaUserCircle/> Login</Link>
+                </li></>
+                }
           </ul>
         </div>
       </div>

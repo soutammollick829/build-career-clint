@@ -6,6 +6,8 @@ import Contact from "../Pages/Home/Contact us/Contact";
 import Colleges from "../Pages/Colleges/Colleges";
 import Login from "../Pages/Login page/Login";
 import Register from "../Pages/Register page/Register";
+import EventAndSports from "../Pages/Event&Sports/EventAndSports";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
       {
         path:"/register",
         element:<Register/>
+      },
+      {
+        path:"/event-sport",
+        element:<PrivateRoute><EventAndSports/></PrivateRoute>
       }
     ]
   },

@@ -1,5 +1,6 @@
 import { FaAngleRight, FaRegStar, FaStar } from "react-icons/fa";
 import Rating from "react-rating";
+import { Link } from "react-router-dom";
 
 const TopCollegesCad = ({ college }) => {
   const {
@@ -29,7 +30,9 @@ const TopCollegesCad = ({ college }) => {
           />
           </p>
           <div className="card-actions">
-            <div className="btn btn-sm">Details <FaAngleRight/></div>
+            <Link to="/event-sport">
+            <button className="btn btn-sm">Details <FaAngleRight/></button>
+            </Link>
           </div>
         </div>
       </div>
